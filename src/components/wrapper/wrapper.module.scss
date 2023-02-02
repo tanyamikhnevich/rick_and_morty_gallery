@@ -1,0 +1,40 @@
+.background {
+  background: #282B32;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .wrapper {
+    width: 1050px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .wrapper {
+    width: 920px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .wrapper {
+    width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
