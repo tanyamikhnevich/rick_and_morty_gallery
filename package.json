@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tanyamikhnevich.github.io/rick_and_morty_gallery",
   "name": "rick_morty_gallery",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run bouild",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,9 +41,10 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^4.9.5",
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10"
+    "@types/react-dom": "^18.0.10",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.5"
   }
 }
